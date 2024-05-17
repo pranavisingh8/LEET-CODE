@@ -1,0 +1,4 @@
+## 1667. Fix Names in a Table
+user_id, concat(upper(substr(name,1,1)),lower(substr(name,2))) as name
+FROM Users
+ORDER BY 1;
