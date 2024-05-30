@@ -2,3 +2,11 @@
 SELECT p.product_name, s.year, s.price
 FROM Sales s LEFT JOIN Product p ON
 s.product_id = p.product_id
+
+Summary: Product analytics is the process of analyzing how users engage with a product or service. It enables product teams to track, visualize, and analyze user engagement and behavior data. Teams use this data to improve and optimize a product or service.
+
+As product managers, we take every opportunity we get to learn more about our customers because understanding their needs is critical to building useful products. This means conducting customer interviews, running surveys, and examining in-product analytics. The data we glean from product analytics tells us how users actually use the product – not what they want to do, how they think they're using them, or even how we think they are using them.
+
+Where software development differs, and home building could definitely benefit, is the use of agile methodology. Agile allows multiple teams to respond to changes, quickly. So how can agile, a method based on frequent, continuous delivery exist with long-term, big-picture planning? Is it possible to create a realistic forecast over a long period of time, knowing that the one constant is change?
+
+As a PM, questions like, "How much time do users spend with the product each day?", "What actions do they take most?", and "Which features get used least?" are incredibly valuable for understanding your users and give us clues as to how to make their experience better. In this post, I'll explain what product analytics are and why you should use them; how to gain a true understanding of your users so you can pay off "empathy debt"; and how to use analytics to help guide new feature development
