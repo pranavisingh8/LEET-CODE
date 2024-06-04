@@ -1,2 +1,16 @@
 ## 620. Not Boring Movies
 select * from Cinema where id MOD 2 <> 0 AND description <> 'boring' order by rating desc;
+
+# Write your MySQL query statement below
+select id,movie,description,rating 
+from Cinema 
+where id % 2 <> 0 and rating > 5 and description <> 'boring'
+order by rating desc;
+Previous
+620 | MYSQL | Run 93.28% Memory 100%
+Next
+🔥 Clean & Easy || Oracle || Explanation 🔥
+Comments (0)
+
+Sort by:Best
+Type comment here... (Markdown supported)
