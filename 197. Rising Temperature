@@ -1,3 +1,4 @@
 ## 197. Rising Temperature
-select we.Id as `Id`
-from Weather we join Weather w on datediff(we.RecordDate, w.RecordDate) = 1 and we.Temperature > w.Temperature
+select w.id as Id from Weather w join Weather we on datediff(w.recordDate, we.recordDate)=1 where w.temperature> we.temperature;
+
+Approach: self join is used. datediff gives diff between two dates date1 is present or late and date2 is previous. format: datediff(date1, date2). 
