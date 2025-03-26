@@ -1,6 +1,4 @@
 ## 1378. Replace Employee ID With The Unique Identifier
+select i.unique_id, e.name from Employees e left join EmployeeUNI i on e.id = i.id;
 
-SELECT unique_id, name
-FROM Employees
-LEFT JOIN  EmployeeUNI
-USING (id);
+Approach: LEFT JOIN IS USED FOR TABLE 1 ENTIRE PLUS THE INTERSECTION. make alias.
