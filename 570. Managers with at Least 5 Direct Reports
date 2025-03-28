@@ -9,3 +9,5 @@ JOIN (
 	HAVING COUNT(ManagerId) >= 5
 ) e2
 ON e1.Id = e2.ManagerId;
+
+Approach: self join e1 on a subquery e2, which is the representation of the constraint where count of managerId is at least 5
