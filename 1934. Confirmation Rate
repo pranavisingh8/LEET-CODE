@@ -10,4 +10,4 @@ GROUP BY
   s.user_id;
 
 
-Approach: case hwen and if else are all the same but divison always needs to be done outside sum brackets
+Approach: case when and if-else are all the same, but division always needs to be done outside the sum brackets
