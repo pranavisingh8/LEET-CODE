@@ -3,3 +3,5 @@ select patient_id, patient_name, conditions
 from patients
 where conditions like '%_% DIAB1%'
 or conditions like 'DIAB1%'
+
+Approach: the entire or prefix of string is of diabatic people
