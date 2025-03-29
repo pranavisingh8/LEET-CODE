@@ -1,4 +1,5 @@
 ## 1667. Fix Names in a Table
-user_id, concat(upper(substr(name,1,1)),lower(substr(name,2))) as name
-FROM Users
-ORDER BY 1;
+select user_id, concat(upper(substr(name,1,1)),lower(substr(name,2))) as name from Users order by user_id;
+
+
+Approach: concat((),()) then upper() in that substr(,,) same for lower() in that substr(,) only 2 parameters coz i wanted to convert rest all in lower case
